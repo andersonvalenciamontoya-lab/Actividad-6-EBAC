@@ -134,9 +134,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cubo (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 418799195230253273, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_LocalPosition.x
@@ -200,6 +204,94 @@ MonoBehaviour:
   Cubo1: {fileID: 1906231225}
   Cubo2: {fileID: 2100279442}
   resultadoB: 0
+--- !u!1 &140590347 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 418799195230253273, guid: 8fc835443025fb64280f05d636338328, type: 3}
+  m_PrefabInstance: {fileID: 1919470603}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &140590348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140590347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82026cd7e2f667542b6485fa25f365a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cubo5: {fileID: 140590347}
+  Cubo6: {fileID: 702130204}
+  contador: 0
+  multiplicador: 2
+  numeroA: 5.5
+  numeroB: 2
+  numeroParImpar: 7
+  palabraColor: rojo
+  numeroDecimal: 3.141592
+  nombreCompleto: Anderson Valencia Montoya
+  valorTextoA: 1200
+  valorTextoB: 3500
+  oracion: Hola Mundo
+  oracionEliminar: Hola Mundo desde EBAC
+--- !u!1001 &356050644
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 418799195230253273, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_Name
+      value: Cubo (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.5977044
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9385347
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5356712
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fc835443025fb64280f05d636338328, type: 3}
 --- !u!1 &424345697 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3624389640268587530, guid: 3ef84849717080b4fabf70cbc427a969, type: 3}
@@ -229,9 +321,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cubo (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 418799195230253273, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_LocalPosition.x
@@ -275,6 +371,37 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8fc835443025fb64280f05d636338328, type: 3}
+--- !u!1 &702130204 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 418799195230253273, guid: 8fc835443025fb64280f05d636338328, type: 3}
+  m_PrefabInstance: {fileID: 356050644}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &702130205
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 702130204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82026cd7e2f667542b6485fa25f365a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cubo5: {fileID: 140590347}
+  Cubo6: {fileID: 702130204}
+  contador: 0
+  multiplicador: 2
+  numeroA: 5.5
+  numeroB: 2
+  numeroParImpar: 7
+  palabraColor: rojo
+  numeroDecimal: 3.141592
+  nombreCompleto: Anderson Valencia Montoya
+  valorTextoA: 1200
+  valorTextoB: 3500
+  oracion: Hola Mundo
+  oracionEliminar: Hola Mundo desde EBAC
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -366,7 +493,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1001 &880178620
 PrefabInstance:
@@ -379,9 +506,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cubo (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 418799195230253273, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_LocalPosition.x
@@ -438,6 +569,7 @@ GameObject:
   - component: {fileID: 963194226}
   - component: {fileID: 963194231}
   - component: {fileID: 963194230}
+  - component: {fileID: 963194229}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -510,6 +642,32 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 6.431, y: 0, z: 0}
+--- !u!114 &963194229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 963194225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82026cd7e2f667542b6485fa25f365a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cubo5: {fileID: 0}
+  Cubo6: {fileID: 0}
+  contador: 0
+  multiplicador: 2
+  numeroA: 5.5
+  numeroB: 2
+  numeroParImpar: 7
+  palabraColor: rojo
+  numeroDecimal: 3.141592
+  nombreCompleto: Anderson Valencia Montoya
+  valorTextoA: 1200
+  valorTextoB: 3500
+  oracion: Hola Mundo
+  oracionEliminar: Hola Mundo desde EBAC
 --- !u!114 &963194230
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -564,9 +722,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Cubo (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 418799195230253273, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_LocalPosition.x
@@ -648,6 +810,63 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   variable: 0
   Cubo: {fileID: 1906231225}
+--- !u!1001 &1919470603
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 418799195230253273, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_Name
+      value: Cubo (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.7803535
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.0428813
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.0900402
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 8fc835443025fb64280f05d636338328, type: 3}
 --- !u!1 &2100279442 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 418799195230253273, guid: 8fc835443025fb64280f05d636338328, type: 3}
@@ -684,7 +903,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4974994478993986467, guid: 3ef84849717080b4fabf70cbc427a969, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 4974994478993986467, guid: 3ef84849717080b4fabf70cbc427a969, type: 3}
       propertyPath: m_LocalPosition.x
@@ -741,11 +960,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 418799195230253273, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_RootOrder
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6474446643019591311, guid: 8fc835443025fb64280f05d636338328, type: 3}
       propertyPath: m_LocalPosition.x
@@ -826,7 +1045,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6352039552753350784, guid: 7c243a439d588b9498ded24edf95888b, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 6352039552753350784, guid: 7c243a439d588b9498ded24edf95888b, type: 3}
       propertyPath: m_LocalPosition.x
